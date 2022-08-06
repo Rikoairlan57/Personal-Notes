@@ -1,0 +1,32 @@
+.note-item__archive-button,
+.note-item__delete-button {
+  display: block;
+  align-items: bottom;
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  border-top: 1px solid #aaa;
+  padding: 8px 0;
+  font-family: "Inter", sans-serif;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.note-item__archive-button {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.note-item__archive-button:hover {
+  background-color: #0d47a1;
+  color: #fff;
+}
+.note-item__delete-button {
+  background-color: #ff4444;
+  color: #fff;
+}
+
+.note-item__delete-button:hover {
+  background-color: #cc0000;
+  color: #fff;
+}
